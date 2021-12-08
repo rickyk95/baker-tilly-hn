@@ -188,11 +188,37 @@ ul {
   width: 50%;
 }
 
+#scroll-up {
+  padding: 20vh 0;
+}
+
+#scroll-up h2 {
+  color: white;
+  right: 1.2vw;
+  position: absolute;
+  bottom: 10vh;
+}
+
+#scroll-up a {
+  padding: 5px;
+  border: 2px black solid;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 612px) {
   .values-container {
     flex-direction: column;
   }
+  #scroll-up h2 {
+    font-size: 1rem;
+    bottom: 15vh;
+    right: 0;
+    display: none;
+  }
 
+  #scroll-up a {
+    font-size: 1rem;
+  }
   #feature h1 {
     top: 20vh;
     left: 0;
