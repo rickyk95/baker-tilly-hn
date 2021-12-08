@@ -196,7 +196,7 @@ ul {
   color: white;
   right: 1.2vw;
   position: absolute;
-  bottom: 10vh;
+  bottom: 15vh;
 }
 
 #scroll-up a {
@@ -211,7 +211,6 @@ ul {
   }
   #scroll-up h2 {
     font-size: 1rem;
-    bottom: 15vh;
     right: 0;
     display: none;
   }
